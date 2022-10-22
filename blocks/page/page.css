@@ -1,0 +1,19 @@
+.page {
+    background-color: #2A2C2F;
+    color: #fff;
+    font-weight: 400;
+    min-width: 320px;
+    max-width: 1280px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 28px 0 24px;
+}
+
+@media screen and (max-width: 567px) {
+    .page {
+      padding: 16px 0 24px;
+  }
+}
+

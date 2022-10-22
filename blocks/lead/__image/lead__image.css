@@ -1,0 +1,8 @@
+.lead__image {
+  box-sizing: border-box;
+  object-fit: contain;
+  width: 100%;
+  min-height: 615px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

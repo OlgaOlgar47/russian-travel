@@ -1,0 +1,9 @@
+.header {
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+
+}
+

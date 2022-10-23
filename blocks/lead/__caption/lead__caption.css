@@ -5,5 +5,23 @@
   letter-spacing: 1.5px;
   margin: 0;
   align-self: flex-start;
-  padding-left: 100px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1124px) {
+  .lead__caption {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead__caption {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__caption {
+    padding: 0 16px;
+  }
 }

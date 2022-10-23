@@ -5,3 +5,9 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1124px) {
+  .content__section {
+    padding: 0;
+  }
+}
+    

@@ -1,8 +1,27 @@
 .lead__image {
   box-sizing: border-box;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
+  max-width: 984px;
   min-height: 615px;
-  padding-left: 100px;
-  padding-right: 100px;
+}
+
+@media screen and (max-width: 1124px) {
+  .lead__image {
+    min-height: 580px;
+    padding: 0 48px;
+}
+}
+
+@media screen and (max-width: 984px) {
+  .lead__image {
+    min-height: 480px;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 568px) {
+  .lead__image {
+    min-height: 200px;
+}
 }

@@ -6,4 +6,20 @@
   align-items: center;
   max-width: 984px;
   padding: 0;
-}
+  width: calc(100% - 2*148px);
+  margin: 0 auto;
+} 
+  
+  @media screen and (max-width: 1124px) {
+    .lead {
+      width: calc(100% - 2*48px);
+    }
+    
+  }
+
+  @media screen and (max-width: 984px) {
+    .lead {
+      width: 100%;
+    }
+    
+  }

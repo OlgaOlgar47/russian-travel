@@ -9,14 +9,14 @@
 @media screen and (max-width: 1124px) {
   .lead__image {
     min-height: 580px;
-    padding: 0 48px;
+   
 }
 }
 
 @media screen and (max-width: 984px) {
   .lead__image {
     min-height: 480px;
-    padding: 0;
+    
 }
 }
 

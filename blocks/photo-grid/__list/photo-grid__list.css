@@ -3,5 +3,32 @@
   grid-template-columns: repeat(auto-fit,minmax(284px, 1fr));
   gap: 16px;
   padding: 0;
+  margin: 0;
   list-style-type: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 1124px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 14px;
+  }
+  
+}
+
+@media screen and (max-width: 984px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit,minmax(352px, 1fr));
+    gap: 16px;
+  }
+  
+}
+
+
+@media screen and (max-width: 568px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit,minmax(288px, 1fr));
+    gap: 12px;
+  }
+  
 }

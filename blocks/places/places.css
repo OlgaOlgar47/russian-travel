@@ -1,4 +1,5 @@
 .places {
+  font-family: "inter", Arial, sans-serif;
   display: grid;
   grid-row-gap: 80px;
   margin: 0 auto;

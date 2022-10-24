@@ -19,7 +19,7 @@
 
 .cover__item::before {
   content: '';
-  background: #2a2c2f ;
+  background: #2a2c2f;
   opacity: .3;
   position: absolute;
   top: 0;

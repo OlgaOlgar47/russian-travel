@@ -2,27 +2,6 @@
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;
-  max-width: 984px;
-  min-height: 615px;
   margin-bottom: 8px;
 }
 
-@media screen and (max-width: 1124px) {
-  .lead__image {
-    min-height: 580px;
-   
-}
-}
-
-@media screen and (max-width: 984px) {
-  .lead__image {
-    min-height: 480px;
-    
-}
-}
-
-@media screen and (max-width: 568px) {
-  .lead__image {
-    min-height: 200px;
-}
-}

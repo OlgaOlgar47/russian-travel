@@ -1,7 +1,8 @@
 .footer__links {
   display: flex;
-  list-style-type: none;
   gap: 18px;
+  flex-wrap: wrap;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }

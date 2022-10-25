@@ -1,14 +1,17 @@
 .footer {
   font-family: "Inter", Arial, sans-serif;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 48px;
+  box-sizing: border-box;
+  max-width: 1184px;
+  margin: 0 auto;
+  width: calc(100% - 2*48px);
 }
 
 @media screen and (max-width: 984px) {
   .footer {
-    padding: 0 24px;
+    width: calc(100% - 2*24px);
   }
     
 }
@@ -17,6 +20,6 @@
   .footer {
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 16px;
+    width: calc(100% - 2*16px);
   } 
 }

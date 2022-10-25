@@ -5,6 +5,7 @@
   grid-template-rows: auto;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
+  margin: 0 auto;
 }
 
 
@@ -12,6 +13,13 @@
   .place {
     grid-column-gap: 32px;
   }
+}
+
+@media screen and (max-width: 745px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+  
 }
 
   @media screen and (max-width: 984px) {

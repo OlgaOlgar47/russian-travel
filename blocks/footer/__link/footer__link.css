@@ -1,9 +1,11 @@
 .footer__link {
+  margin: 0;
+  padding: 0;
   color: #fff;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.12;
-  transition: 0.2s;
+  transition: 0.2s ease-in;
 }
 
 .footer__link:hover {

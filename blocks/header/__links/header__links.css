@@ -2,6 +2,7 @@
     margin: 18px 0 6px;
     list-style-type: none;
     display: flex;
+    gap: 18px;
     flex-direction: row;
     padding: 0;
 }

@@ -4,13 +4,9 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
-  margin: 0 0 0 18px;
+  margin: 0;
   transition: 0.2s;
   }
-
-.header__lang-link:last-of-type {
-  margin: 0;
-}
 
 .header__lang-link:hover {
   opacity: .8;
